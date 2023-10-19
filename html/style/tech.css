@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1500px;
+    background-color: black;
+}
+
+/* inicio borda voltar */
+.topBoard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid white 2px;
+
+}
+.voltar{
+    
+    width: 150px;
+    height: 70px;
+    background-color: black;
+    
+}
+#iadog{
+    height: 70px;
+    width: 150px;
+}
+/* fim borda voltar */
+
+/* inicio  Iago Tech */
+.iagoTech{ 
+    margin:70px 0 100px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fundoTech{
+    border-radius: 20px;
+    background-color: white;
+
+    width: 1080px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+ <h1 id="titulo">Iago Tech</h1>
+#titulo{
+    padding-left: 20px;
+    font-size: 50px;
+    font-family: poppins;
+    color: black;
+}
+*/
+
+#imgIagoTech{
+    border: solid 5px white;
+    border-radius: 100px;
+    width: 200px;
+    transition: transform 0.3s;
+}
+#imgIagoTech:hover{
+    transform: scale(1.05);
+}
+/* Fim Iago Tech */
+
+
+
+/* inicio Feed */
+.fundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foto{
+    margin: 10px 10px 0 10px;
+    width: 330px;
+    height: 330px;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.493);
+    transition: transform 0.3s;
+}
+#foto:hover{
+    transform: scale(1.05);
+}
+
+.feed {
+    border-radius: 20px;
+    width: 1080px;
+    height: 1080px;
+    background-color: white;
+}
+#l1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#l2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#l3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+/* Fim Feed */

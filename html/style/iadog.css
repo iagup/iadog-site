@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/* imagem inicio*/
+.iadogimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#iadog{
+    margin-bottom: 10px;
+    width: 700px;
+    transition: transform 0.3s;
+}
+#iadog:hover{
+    transform: scale(1.05);
+}
+/* imagem fim*/
+
+
+/* iago efe */
+.efeIago {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#iagoEfe {
+    width: 300px;
+    color: black;
+    background-color: white;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+#iagoEfe:hover {
+    background-color: grey;  
+}
+/* fim */
+
+
+/* iago tech */
+.techIago{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#iagoTech {
+
+    color: white;
+    border: solid white 5px;
+    margin-bottom: 20px;
+    width: 300px;
+    transition:all 0.3s ease-in-out;
+    text-decoration: none;
+}
+#iagoTech:hover{
+    color: grey;
+    border: solid grey 5px;
+}
+/* fim */
+
+
+/* iago garage */
+.garageIago{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#iagoGarage {
+    width: 300px;
+    color: black;
+    background-color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+#iagoGarage:hover {
+    background-color: grey;  
+}
+/* fim */
+
+
+/* Github */
+.gitIago {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#iagoGit {
+    
+    color: white;
+    border: solid white 5px;
+    margin-bottom: 20px;
+    width: 300px;
+    transition:all 0.3s ease-in-out;
+    text-decoration: none;
+}
+#iagoGit:hover{
+    color: grey;
+    border: solid grey 5px;
+}
+/* fim */

@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1900px;
+    background-color:black;
+}
+
+        /*
+        <div class="inicio">
+            <h1 id="titulo">IAGO GARAGE</h1>
+        </div>
+        */
+
+.topBoard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid white 2px;
+
+}
+.voltar{
+    
+    width: 150px;
+    height: 70px;
+    background-color: black;
+    
+}
+#iadog{
+    height: 70px;
+    width: 150px;
+}
+
+/* inicio  Iago Tech */
+.iagoTech{ 
+    margin:70px 0 100px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fundoTech{
+    border-radius: 20px;
+    background-color: white;
+
+    width: 1080px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgIagoTech{
+    border: solid 5px white;
+    border-radius: 100px;
+    width: 200px;
+    transition: transform 0.3s;
+}
+#imgIagoTech:hover{
+    transform: scale(1.05);
+}
+/* Fim Iago Tech */
+
+
+/*Inicio*/
+/*
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo {
+
+    width: 600px;
+    height: 120px;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: poppins;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    
+    color: rgb(210, 210, 210);
+    background-color: black;
+    
+    
+}
+
+
+.iagogarageimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#igi {
+    width: 950px;
+    border: solid black 20px;
+    margin-bottom: 20px;
+}
+*/
+
+
+
+/*160*/
+
+.textos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iagoGarageImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#iagoGarageImg{
+    margin-top: 20px;
+    width: 950px;
+    transition: transform 0.3s;
+}
+
+#iagoGarageImg:hover{
+    transform: scale(1.05);
+
+}
+
+#start{
+        margin-top: 20px;
+        border-radius: 20px;
+        padding-left: 100px;
+        padding-right:100px;
+        border: solid 2px black;
+        font-family: Poppins;
+        font-size: 20px;
+        color: rgb(210, 210, 210);
+        background-color: black;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+}
+#start:hover{
+    box-shadow: 3px 3px 3px grey;
+
+}
+
+#pop{
+    margin-top: 50px;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right:100px;
+    border: solid 2px black;
+    font-family: Poppins;
+    font-size: 20px;
+    color: rgb(210, 210, 210);
+    background-color: black;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+#pop:hover{
+    box-shadow: 3px 3px 3px grey;
+}
+
+/*Imagens Feed*/
+
+.fundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#foto {
+        height: 300px;
+        width: 300px;
+        margin: 20px 10px 0 10px;
+        box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.493);
+        transition: transform 0.3s;
+}
+#foto:hover {
+    transform: scale(1.05);
+}
+
+
+.feed {
+    border-radius: 20px;
+    width: 1080px;
+    height: 1400px;
+    background-color: white;
+}
+
+.l1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.l2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.l3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
